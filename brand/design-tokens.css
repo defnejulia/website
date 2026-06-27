@@ -1,0 +1,31 @@
+/* D.AGENCY — Design Tokens
+ * Source: D.AGENCY Brand Bible, June 2025. See brand/BRAND_GUIDELINES.md.
+ * Import once at the root of the site (e.g. in your global stylesheet). */
+
+:root {
+  /* ---- Brand colours ---- */
+  --color-spicy-orange: #f82303; /* primary */
+  --color-sandy-beige:  #eeeae1; /* light surface / background */
+  --color-azure-blue:   #1a4999; /* secondary accent */
+  --color-baby-pink:    #ffb2c2; /* soft accent */
+  --color-little-red:   #890033; /* deep accent / contrast */
+
+  /* ---- Semantic aliases ---- */
+  --color-primary:    var(--color-spicy-orange);
+  --color-bg:         var(--color-sandy-beige);
+  --color-surface:    #ffffff;
+  --color-ink:        #111111; /* default text on light bg */
+  --color-on-primary: #ffffff;
+  --color-accent:     var(--color-azure-blue);
+  --color-accent-soft:var(--color-baby-pink);
+  --color-accent-deep:var(--color-little-red);
+
+  /* ---- Typography ---- */
+  --font-display:  "Anton", "Hanken Grotesk", system-ui, sans-serif; /* expressive headlines */
+  --font-heading:  "Hanken Grotesk", system-ui, sans-serif;          /* headlines/sublines (use 700) */
+  --font-body:     "Hanken Grotesk", system-ui, sans-serif;          /* body (use 400) */
+  --font-accent:   "Qwitcher Grypen", cursive;                        /* small handwritten accents */
+
+  --font-weight-body: 400;
+  --font-weight-bold: 700;
+}
